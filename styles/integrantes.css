@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    margin-top: 7.5rem;
+    font-family: sans-serif;
+    background-color: #ffff;
+    font-size: 20px;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 8rem;
+    padding-top: 1.3rem;
+    left: 0;
+    top: 0;
+    
+    background-color: #084775;
+    color: #000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav a {
+        display: block;
+        padding: 1.44rem;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.4rem;
+
+        background-color: #A0E3FF;
+        filter: drop-shadow(20px 10px 5px rgba(133, 198, 234, 0.53));
+    }
+
+        nav a:hover {
+            background-color: #d2f2ff;
+            color: #084775;
+        }
+
+main {
+    position: relative;
+    margin: 0;
+}
+
+.TituloPrincipal{
+text-align: center;
+}
+    .contenedor{
+        margin: 0 auto;
+    
+    }
+
+    .imgpresentacion{
+        width: 50%;
+        border-radius: 20px; 
+        box-shadow: 10px 10px 5px rgb(90, 91, 91);
+    }
+
+    .tituloPagina{
+        text-align: center;
+        background-color: #062f4d;
+        color: rgb(255, 255, 255);
+    }
+
+    .contenedorflex{
+        display: flex;
+        justify-content:space-around;
+        margin: 7rem;
+    } 
+    .cajaintegrante{
+        background-color: #7DB7E0;
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow:10px 10px 5px rgb(90, 91, 91);
+        text-align: center;
+    }
+        .cajaintegrante:hover {
+            background-color: #d2f2ff;
+            color: #084775;
+        }
+    .fotointegrante{
+        width: 100%;
+        box-sizing: border-box;
+    }    
+
+.footer {
+    padding: 1em;
+    width: 100%;
+    display: block;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333131;
+    color: beige;
+}
+
+@media  screen and (max-width: 980px) {
+
+    .tituloPagina {
+        text-align: center;
+        background-color: #062f4d;
+        color: rgb(255, 255, 255);
+        height: 4rem;
+        font-size: 3rem;
+    }
+    .contenedorflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 7rem;
+    }
+    .cajaintegrante {
+        background-color: #7DB7E0;
+        width: 25rem;
+        margin: 2rem;
+        padding: 1.5rem;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px rgb(90, 91, 91);
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}

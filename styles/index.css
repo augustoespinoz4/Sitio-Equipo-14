@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    margin-top: 7.5rem;
+    font-family: sans-serif;
+    background-color: #ffff;
+    font-size: 20px;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 8rem;
+    padding-top: 1.3rem;
+    left: 0;
+    top: 0;
+
+    background-color: #084775;
+    color: #000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0; 
+        list-style: none;
+    }
+
+    nav a {
+        display: block;
+        padding: 1.44rem;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.4rem;
+
+        background-color: #A0E3FF;
+        filter: drop-shadow(20px 10px 5px rgba(133, 198, 234, 0.53));
+    }
+
+        nav a:hover {
+            background-color: #d2f2ff;
+            color: #084775;
+        }
+
+.container {
+    width: 100%;
+    height: auto;
+    padding-top: 1.8rem;
+}
+    .cajaTexto {
+        padding: 2rem;
+        margin: 1.5rem;
+    }
+
+.grupoCatorce {
+    text-align: center;
+}
+
+.containerFoto {
+    display: flex;
+    justify-content: center;
+}
+    .integrantesInicio {
+        width: 65%;
+        height: auto;
+    }
+
+.containerTexto {
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+    
+.footer {
+    padding: 1em;
+    width: 100%;
+    display: block;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333131;
+    color: beige;
+}
+
+@media  screen and (max-width: 980px) {
+    
+    .containerTexto {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
