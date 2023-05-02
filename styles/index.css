@@ -60,9 +60,10 @@ body {
 .containerFoto {
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
 }
     .integrantesInicio {
-        width: 65%;
+        width: 40%;
         height: auto;
     }
 
@@ -89,5 +90,17 @@ body {
     .containerTexto {
         padding-left: 5rem;
         padding-right: 5rem;
+        
     }
+    .cajaTexto {
+        padding: 2rem;
+        margin: 1.5rem;
+        font-size: 2.2rem;
+    }
+
+    .integrantesInicio {
+        width: 65%;
+        height: auto;
+    }
+    
 }
