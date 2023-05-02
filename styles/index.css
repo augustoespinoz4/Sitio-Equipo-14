@@ -105,7 +105,7 @@ body {
     
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1354px) {
     
     .containerTexto {
         padding-left: 10rem;
